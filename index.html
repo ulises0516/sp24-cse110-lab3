@@ -8,11 +8,9 @@
 
 <body>
     <header>
-        <center>
             <h1> LeCoders Second Brain Storm </h1>
             <h2> brainstorming </h2>
             <p>04/15/2024</p>
-        </center>
     </header>
     <main>
         <div>
@@ -58,35 +56,29 @@
                 </nav>      
 
                 <h4> Sova understanding our product</h4>
-                <img src = "images/board.jpg" alt = "LeCoders brainstorming" width = "600" height = "300"/>
+                <img src = "images/board.jpg" alt = "LeCoders brainstorming" >
             </section>
         </div>
     </main>
     <hr>
     <footer>
         <form>
-            <!-- <div> -->
             <p>Type something fun here: </p>
-                <input type = "text">
+                <input type = "text" id = "fun" name = "fun">
             <br><br>
-            <!-- </div> -->
-            <!-- <div> -->
                 <fieldset>
                     <legend> Favorite Pokemon Fillout</legend>
-                    <label for = "name"> Pokemon Name: </label>
-                    <input type = "text" id = "name" name = "name"> <br><br>
-                    <label for = "fname"> Generation: </label>
-                    <input type = "text" id = "name" name = "fname"> <br><br>
+                    <label for = "name1"> Pokemon Name: </label>
+                    <input type = "text" id = "name1" name = "name1"> <br><br>
+                    <label for = "name1"> Generation: </label>
+                    <input type = "text" id = "name2" name = "name2"> <br><br>
                 </fieldset>
-            <!--</div> -->
-            <!-- <div> -->
                 <p><label for = "pokemonreview"> Review of Your Favorite Pokemon: </label></p>
                 <textarea id = "pokemonreview" name = "pokemonreview" rows = "3" cols = "10"> Argue for your pokemon and why its your favorite/best pokemon </textarea>
                 <br>
                 <input type = "submit"><br><br>
-            <!-- </div> -->
                 <label for = "starterpokemon">Choose your starter pokemon:</label>
-                <input list = "starterpokemon" name = "starterpokemon">
+                <input list = "starterpokemon" id = "starterpokemon" name = "starterpokemon">
                 <datalist id = "starterpokemon">
                     <option value = "charmander">
                     <option value = "squirtle">
@@ -96,7 +88,7 @@
                 <input type = "submit"> <br><br>
 
                 <label for = "trainer"> Choose a trainer: </label>
-                <select name = "trainer">
+                <select id = "trainer" name = "trainer">
                     <option  value = "Ash"> Ash </option>
                     <option value = "Brock"> Brock </option>
                     <option value = "Red"> Red </option>
