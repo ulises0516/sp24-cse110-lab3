@@ -5,22 +5,14 @@
 |        |        |
 
 ## Table of contents
-- [Monday (Date)](#monday-date)
-- [Tuesday (Date)](#tuesday-date)
-- [Wednesday (Date)](#wednesday-date)
-- [Thursday (Date)](#thursday-date)
-- [Friday (Date)](#friday-date)
+- [Monday (Date)](###Monday)
+- [Tuesday (Date)](###Tuesday)
+- [Wednesday (Date)](###Wednesday)
+- [Thursday (Date)](###Thursday)
+- [Friday (Date)](###Friday)
 
-### :date: Monday <Date>
-
-| Name    | Priorities|Progress |Problems   |
-|---------|-----------|---------|-----------|
-| 1       |           |         |           |
-| 2       |           |         |           |
-| 3       |           |         |           |
-| 4       |           |         |           |
-| 5       |           |         |           |
-### :date: Tuesday <Date>
+ ### Monday
+ :date:
 
 | Name    | Priorities|Progress |Problems   |
 |---------|-----------|---------|-----------|
@@ -29,8 +21,7 @@
 | 3       |           |         |           |
 | 4       |           |         |           |
 | 5       |           |         |           |
-
-### :date: Wednesday <Date>
+### Tuesday
 
 | Name    | Priorities|Progress |Problems   |
 |---------|-----------|---------|-----------|
@@ -40,7 +31,7 @@
 | 4       |           |         |           |
 | 5       |           |         |           |
 
-### :date: Thursday <Date>
+### Wednesday
 
 | Name    | Priorities|Progress |Problems   |
 |---------|-----------|---------|-----------|
@@ -50,7 +41,17 @@
 | 4       |           |         |           |
 | 5       |           |         |           |
 
-### :date: Friday <Date>
+### Thursday 
+
+| Name    | Priorities|Progress |Problems   |
+|---------|-----------|---------|-----------|
+| 1       |           |         |           |
+| 2       |           |         |           |
+| 3       |           |         |           |
+| 4       |           |         |           |
+| 5       |           |         |           |
+
+### Friday 
 | Name    | Priorities|Progress |Problems   |
 |---------|-----------|---------|-----------|
 | 1       |           |         |           |
