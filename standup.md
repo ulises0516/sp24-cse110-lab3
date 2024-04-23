@@ -12,6 +12,9 @@
 - [Friday (Date)](#friday-date)
 
 ### :date: Monday <Date>
+| Name    | Priorities| 
+|---------|-----------|
+| LeCoders| Kevin     |
 
 ### :date: Tuesday <Date>
 
