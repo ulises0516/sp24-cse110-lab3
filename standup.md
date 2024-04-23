@@ -11,13 +11,13 @@
 - [Thursday (Date)](#thursday-date)
 - [Friday (Date)](#friday-date)
 
-### Monday <Date>
+### :date: Monday <Date>
 
-### Tuesday <Date>
+### :date: Tuesday <Date>
 
-### Wednesday <Date>
+### :date: Wednesday <Date>
 
-### Thursday <Date>
+### :date: Thursday <Date>
 
-### Friday <Date>
+### :date: Friday <Date>
 
