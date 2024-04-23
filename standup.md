@@ -14,7 +14,7 @@
 ### :date: Monday <Date>
 | Name    | Priorities|Progress |Problems   |
 |---------|-----------|---------|-----------|
-| LeCoders| Kevin     |         |           |
+| Raze| Eat     |         |           |
 
 ### :date: Tuesday <Date>
 
