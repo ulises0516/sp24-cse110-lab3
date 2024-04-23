@@ -2,7 +2,7 @@
 
 | Team Name | Direct Supervisor | 
 |--------|--------|
-| LeCoders| Kevin |
+|        |        |
 
 ## Table of contents
 - [Monday (Date)](#monday-date)
@@ -15,13 +15,20 @@
 
 | Name    | Priorities|Progress |Problems   |
 |---------|-----------|---------|-----------|
-|         |           |         |           |
-
+| 1       |           |         |           |
+| 2       |           |         |           |
+| 3       |           |         |           |
+| 4       |           |         |           |
+| 5       |           |         |           |
 ### :date: Tuesday <Date>
 
 | Name    | Priorities|Progress |Problems   |
 |---------|-----------|---------|-----------|
-|         |           |         |           |
+| 1       |           |         |           |
+| 2       |           |         |           |
+| 3       |           |         |           |
+| 4       |           |         |           |
+| 5       |           |         |           |
 
 ### :date: Wednesday <Date>
 
@@ -37,11 +44,17 @@
 
 | Name    | Priorities|Progress |Problems   |
 |---------|-----------|---------|-----------|
-|         |           |         |           |
+| 1       |           |         |           |
+| 2       |           |         |           |
+| 3       |           |         |           |
+| 4       |           |         |           |
+| 5       |           |         |           |
 
 ### :date: Friday <Date>
-
 | Name    | Priorities|Progress |Problems   |
 |---------|-----------|---------|-----------|
-|         |           |         |           |
-
+| 1       |           |         |           |
+| 2       |           |         |           |
+| 3       |           |         |           |
+| 4       |           |         |           |
+| 5       |           |         |           |
