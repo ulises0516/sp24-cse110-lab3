@@ -10,3 +10,14 @@
 - [Wednesday (Date)](#wednesday-date)
 - [Thursday (Date)](#thursday-date)
 - [Friday (Date)](#friday-date)
+
+### Monday <Date>
+
+### Tuesday <Date>
+
+### Wednesday <Date>
+
+### Thursday <Date>
+
+### Friday <Date>
+
