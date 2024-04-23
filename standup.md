@@ -12,15 +12,36 @@
 - [Friday (Date)](#friday-date)
 
 ### :date: Monday <Date>
+
 | Name    | Priorities|Progress |Problems   |
 |---------|-----------|---------|-----------|
-| Raze| Eat     |         |           |
+|         |           |         |           |
 
 ### :date: Tuesday <Date>
 
+| Name    | Priorities|Progress |Problems   |
+|---------|-----------|---------|-----------|
+|         |           |         |           |
+
 ### :date: Wednesday <Date>
+
+| Name    | Priorities|Progress |Problems   |
+|---------|-----------|---------|-----------|
+| 1       |           |         |           |
+| 2       |           |         |           |
+| 3       |           |         |           |
+| 4       |           |         |           |
+| 5       |           |         |           |
 
 ### :date: Thursday <Date>
 
+| Name    | Priorities|Progress |Problems   |
+|---------|-----------|---------|-----------|
+|         |           |         |           |
+
 ### :date: Friday <Date>
+
+| Name    | Priorities|Progress |Problems   |
+|---------|-----------|---------|-----------|
+|         |           |         |           |
 
