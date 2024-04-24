@@ -257,7 +257,7 @@ ul li {
 }
 /* changes unordred li elements to have yellow color text*/
 ul > li {
-    color: red;
+    color: rgb(44, 38, 38);
 }
 /* CHanges color to blue for all elements <p> that are sibilings of h3*/
 h3 ~ p {
