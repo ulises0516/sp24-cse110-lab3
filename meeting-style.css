@@ -1,0 +1,296 @@
+
+/* Global variables */
+:root {
+    --primary-color: rgb(145, 145, 243);
+}
+.main-content {
+    padding: 25px;
+    margin: auto;
+    background-color: rgb(219, 234, 255);
+
+}
+/* Apply green-bluish color to main header "LeCoder Meeting minutes" */
+h1 {
+    color: rgb(32,190,150);
+}
+/* Testing aboslute unit px */
+.box-px {
+    width:200px
+}
+/* Testing aboslute unit pt */
+.box-pt {
+    width:50pt;
+}
+/* Testing aboslute unit pc */
+.box-pc {
+    width:2pc;
+}
+/* Testing relative unit em */
+.box-em {
+    font-size: 3em;
+}
+/* Testing relative unit ex */
+.box-ex {
+    height:5ex;
+}
+/* Testing relative unit vh */
+.box-vh{
+    width:50vh;
+    background-color: aqua;
+}
+/* Making a box-mdoel using longhand notation */
+.box-model-testing-longhand {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    margin-right: 105px;
+    padding-top: 33px;
+    padding-bottom: 45px;
+    padding-left: 70px;
+    padding-right: 34px;
+    background-color: blanchedalmond;
+
+}
+/* Making a box-mdoel using shorthand notation*/
+.box-model-testing-shorthand {
+    margin:50px 105px 100px 30px;
+    padding: 33px 34px 45px 70px;
+    background-color: rgb(205, 255, 241);
+
+}
+/* Making a box-model making a border */
+.box-model-borders {
+    margin: auto;
+    border-style: solid;
+    border-color:rgb(4, 0, 8);
+    border-width: 1px;
+    border-radius: 1px;
+    background-color: rgb(95, 137, 137);
+}
+/* (Parent) FLex bx that is evene spaced out*/
+.flexbox {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    background-color: lavenderblush;
+
+}
+/* (child) of flexbox*/
+.flex-element-1 {
+    display:flex;
+    flex-grow: 1;
+    flex-basis: auto;
+    order: 3;
+    background-color: aquamarine;
+
+}
+/* (child) of flexbox*/
+.flex-element-2 {
+    display:flex;
+    flex-grow: 1;
+    flex-basis: auto;
+    order: 2;
+    background-color: rgb(140, 204, 158);
+}
+/* (child) of flexbox*/
+.flex-element-3 {
+    display: flex;
+    flex-grow: 1;
+    order: 1;
+    background-color: darkorange;
+}
+/*create a grid that’s four columns wide by three rows tall*/
+.gridbox {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 80px auto 80px; 
+    gap: 15px 10px;
+    height: 300px;
+    background-color: rgb(228, 230, 226);
+}
+/* place grid inner top left box */
+.grid-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+/* place grid lower in 2nd column */
+.grid-item-2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+/* place grid lower in 3nd column */
+.grid-item-3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+/* place grid bottom of the last column */
+.grid-item-4 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+/*modify the text by centering it and addding an overline and underline and color*/
+.paragraph-text-style {
+    color: rgb(205, 255, 241);
+    text-decoration: underline overline;
+    text-align: center;
+}
+/* Make the text display nothing*/
+.display-none {
+    display:none;
+}
+/* Typical div element */
+.display-block {
+    position: relative;
+    left: 350px;
+    display:block;
+    width: 250px;
+    height: 20px;
+    min-width: 200px;
+    max-height: 400px;
+    background-color: coral;
+}
+
+/* Apply blue color header to sub-header "brain storm"  and position if fixed */
+.brain-storm-header {
+    color: hsl(240deg 100% 50%);
+    position: fixed;
+
+}
+/* Change color of "Back-Ground Music...." */
+.music-header {
+    color: color(sRGB 0 0.5 1 / 40%);
+}
+/* Change container of the music-header to a yellowish opaque color*/
+.music-header-box {
+    background-color: color(sRGB 1 1 0 / 0.5); /* vibrant pink color */
+}
+/* Applying color-mix to attendance header*/
+.attendance-box {
+    background-color: color-mix(in srgb, #34c9eb 50%, white); /*method to mix colors, values & percentages of color*/
+}
+/* Changing the agenda container background color and having a fallback value as well */
+.agenda-box {
+    background-color: var(--primary-color,rgba(137, 213, 150, 0.677));
+}
+/* Change button color */
+.interactive-button {
+    background-color: aquamarine;
+    border: 1px solid black;
+
+}
+/* Change button color when you hover over the button */
+.interactive-button:hover {
+    background-color: rgb(233, 159, 232);
+    transform: scale(2.50);
+
+}
+/* Change button color when you click on it*/
+.interactive-button:active {
+    background-color: rgb(250, 236, 144);
+    transform: scale(3.50);
+}
+/* For smaller screens like phones*/
+@media (max-width: 550px) {
+    .content{
+        background-color: beige;
+        width: 100%;
+    }
+    p {
+        font-size:14px;
+    }
+}
+/* For medium size screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .content {
+        width: 90%; 
+    }
+
+    p {
+        font-size: 18px; 
+    }
+}
+/* For larger screens */
+@media (min-width: 1024px) {
+    .content {
+        width: 70%; 
+    }
+
+    p {
+        font-size: 21px; 
+    }
+}
+
+
+/* use custom font style*/
+.jacquard-24-regular{
+    font-family: 'DM Sans', sans-serif;
+
+}
+/* Changing hello text color to blue*/
+#hello {
+    color:brown;
+}
+/* changes all box sizing will have border box*/
+* {
+    box-sizing: border-box;
+}
+/* text area box bordres will have a red border*/
+input[type="text"] {
+    border: 2px solid red;
+}
+/* All of these tags will have spacing of 10px above*/
+h1 h2 h3 {
+    margin-top: 10px;
+}
+/* unorder lists nested elements no longer have bullet points */
+ul li {
+    list-style-type: none;
+}
+/* changes unordred li elements to have yellow color text*/
+ul > li {
+    color: red;
+}
+/* CHanges color to blue for all elements <p> that are sibilings of h3*/
+h3 ~ p {
+    color:blue;
+}
+/* Removes top margin elements <p> that are sibilings of h3*/
+h2 + p {
+    text-transform: uppercase;
+
+}
+/* changes div elements with class green to a green background */
+div.green{
+    background-color: greenyellow;
+}
+/* mimics highlighter feature*/
+p:has(> span.highlight) {
+    background-color: rgb(205, 228, 169);
+}
+/* Styles in connection to parent */
+.nested{
+    ul{
+        margin: auto;
+        padding: 30px;
+    }
+        li{
+            display: inline;
+
+                a{
+                    color: red;
+
+                        &:hover {
+                        color: rgb(31, 11, 11);
+                        }
+                }
+        }
+}
