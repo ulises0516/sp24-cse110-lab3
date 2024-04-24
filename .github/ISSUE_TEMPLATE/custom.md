@@ -13,7 +13,6 @@ assignees: 'Ulises'
       placeholder: "Color is too bright make it darker to please users"
     validations:
       required: true
-
 ---
 
 
